@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<h1>О проекте</h1>
+<p>Этот проект создан в учебных целях для демонстрации работы с шаблонами Django.</p>
+<img src="{% static 'project_app/img/about_image.jpg' %}" class="img-fluid" alt="О проекте" width="500">
+{% endblock %}

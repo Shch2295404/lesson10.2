@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <h1>Добро пожаловать на учебный сайт</h1>
+    <p>Этот сайт создан в учебных целях и демонстрирует работу с Django и Bootstrap.</p>
+    <img src="{% static 'project_app/img/main_image.jpg' %}" class="img-fluid" alt="Главное изображение" width="500">
+{% endblock %}
